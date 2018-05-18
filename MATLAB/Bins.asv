@@ -1,0 +1,10 @@
+function [ bins ] = Bins( hModulus, hAngle, nBins )
+%BINS Puts a HOGImage into nBins with a threshold
+%   Detailed explanation goes here
+
+s = size(hModulus);
+for i=1:s(1,1)
+    for (
+
+end
+
