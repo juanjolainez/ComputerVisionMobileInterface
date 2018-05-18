@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.opencv.samples.facedetect.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnWidth="100dp"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+    android:orientation="horizontal" >
+ 
+   <Button 
+       android:id="@+id/home_btn_schedule"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_launcher" />
+    <Button 
+        android:id="@+id/home_btn_map"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_jog_dial_answer_and_hold" />
+    <Button 
+        android:id="@+id/home_btn_sessions"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_jog_dial_decline" />
+    <Button 
+        android:id="@+id/home_btn_starred"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_jog_dial_sound_off" />
+    <Button 
+        android:id="@+id/home_btn_vendors"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_dialog_email" />
+    <Button 
+        android:id="@+id/home_btn_announcements"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_contact_picture" />
+ 
+</org.opencv.samples.facedetect.DashboardLayout>

@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <org.opencv.android.JavaCameraView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fd_activity_surface_view" 
+    	    
+    />
+    
+     <include
+        android:id="@+id/controls_layout"
+        layout="@layout/layout_boton" />
+ 
+    
+     
+
+</FrameLayout>
